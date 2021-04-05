@@ -1,0 +1,90 @@
+$date
+	Mon Apr  5 15:50:10 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module t_invert $end
+$var wire 1 ! result $end
+$var wire 1 " carryOut $end
+$var reg 1 # a $end
+$var reg 1 $ b $end
+$var reg 1 % carryIn $end
+$var reg 1 & invertA $end
+$var reg 1 ' invertB $end
+$var reg 1 ( less $end
+$var reg 2 ) operation [1:0] $end
+$scope module m $end
+$var wire 1 # a $end
+$var wire 1 $ b $end
+$var wire 1 % carryIn $end
+$var wire 1 & invertA $end
+$var wire 1 ' invertB $end
+$var wire 1 ( less $end
+$var wire 2 * operation [1:0] $end
+$var wire 1 + out0 $end
+$var wire 1 , out1 $end
+$var wire 1 - out3 $end
+$var wire 1 . out2 $end
+$var wire 1 / mulb $end
+$var wire 1 0 mula $end
+$var wire 1 " carryOut $end
+$var reg 1 ! result $end
+$scope module add $end
+$var wire 1 % carryIn $end
+$var wire 1 " carryOut $end
+$var wire 1 0 input1 $end
+$var wire 1 / input2 $end
+$var wire 1 . sum $end
+$var wire 1 1 w1 $end
+$var wire 1 2 w2 $end
+$var wire 1 3 w3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+03
+02
+01
+00
+0/
+0.
+1-
+0,
+0+
+b11 *
+b11 )
+1(
+0'
+0&
+0%
+0$
+0#
+0"
+1!
+$end
+#20
+1.
+11
+1,
+1/
+1$
+#40
+0/
+10
+0$
+1#
+#60
+0.
+1"
+01
+12
+1+
+1/
+1$
+#80
